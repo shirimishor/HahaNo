@@ -3,9 +3,9 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "YourName"                # Change to your username
-name = "poseidon-fail-vo"
+name = "Haha_no"
 versionNumber = "1.0.0"
-description = "Plays custom Poseidon voicelines when the Sea Star (DoubleRewardBoon) fails to duplicate."
+description = "Plays Poseidon voicelines on Sea Star failure."
 websiteUrl = "https://github.com/YourName/poseidon-fail-vo"
 containsNsfwContent = false
 
