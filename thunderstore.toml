@@ -1,0 +1,40 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "YourName"                # Change to your username
+name = "poseidon-fail-vo"
+versionNumber = "1.0.0"
+description = "Plays custom Poseidon voicelines when the Sea Star (DoubleRewardBoon) fails to duplicate."
+websiteUrl = "https://github.com/YourName/poseidon-fail-vo"
+containsNsfwContent = false
+
+[package.dependencies]
+Hell2Modding-Hell2Modding = "1.0.70"   
+LuaENVY-ENVY = "1.2.0"                 
+SGG_Modding-ModUtil = "4.0.1"          
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "./LICENSE"
+
+[[build.copy]]
+source = "./src"
+target = "./plugins"
+
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "hades-ii" ]
+
+[publish.categories]
+hades-ii = [ "mods" ]
