@@ -25,20 +25,28 @@ import_as_fallback(game)
 
 ---@module 'SGG_Modding-SJSON'
 sjson = mods['SGG_Modding-SJSON']
+
 ---@module 'SGG_Modding-ModUtil'
 modutil = mods['SGG_Modding-ModUtil']
 
+---@module 'SGG_Modding-Chalk'
+chalk = mods["SGG_Modding-Chalk"]
 
 ---@module 'SGG_Modding-ReLoad'
 reload = mods['SGG_Modding-ReLoad']
 
+---@module 'config'
+config = chalk.auto()
+-- ^ this updates our config.toml in the config folder!
+public.config = config -- so other mods can access our config
 
 local function on_ready()
-
+	if config.enabled == false then return end
 	import 'ready.lua'
 end
 
 local function on_reload()
+	if config.enabled == false then return end
 end
 
 -- this allows us to limit certain functions to not be reloaded.
