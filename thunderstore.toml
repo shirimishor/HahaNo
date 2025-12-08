@@ -2,17 +2,19 @@
 schemaVersion = "0.0.1"
 
 [package]
-namespace = "YourName"                # Change to your username
-name = "Haha_no"
+namespace = "Poplinp"                # Change to your username
+name = "Haha_No"
 versionNumber = "1.0.0"
 description = "Plays Poseidon voicelines on Sea Star failure."
-websiteUrl = "https://github.com/YourName/poseidon-fail-vo"
+websiteUrl = "https://github.com/shirimishor/HahaNo"
 containsNsfwContent = false
 
 [package.dependencies]
 Hell2Modding-Hell2Modding = "1.0.70"   
 LuaENVY-ENVY = "1.2.0"                 
-SGG_Modding-ModUtil = "4.0.1"          
+SGG_Modding-ModUtil = "4.0.1" 
+SGG_Modding-Chalk = "2.1.1"
+SGG_Modding-ReLoad = "1.0.2"         
 
 [build]
 icon = "./icon.png"
