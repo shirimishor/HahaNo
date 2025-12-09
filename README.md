@@ -1,7 +1,7 @@
 
 # Haha No: A Hades II Mod
 
-A small mod to add Poseidon Voicelines when the Sea Star boon **doesn't** proc (no reward duplication). The vanilla positive voicelines still trigger on success.
+A small mod to add Poseidon Voicelines when the Sea Star boon **doesn't** proc (no reward duplication). There are 4 different voieclines chosen at random. The vanilla positive voicelines still trigger on success.
 
 ***Please note** that it means a Poseidon voiceline would trigger **every time** you collect a minor reward with Sea Star, so it may feel a bit excessive for some people.*
 
