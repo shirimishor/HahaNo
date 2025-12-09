@@ -13,7 +13,9 @@ local PoseidonFailVoiceLines =
     { Cue = "/VO/Poseidon_0239", Text = "I think not." },
     { Cue = "/VO/Poseidon_0340", Text = "I'm keeping {#Emph}that {#Prev}one!" },
     { Cue = "/VO/Poseidon_0341", Text = "That one's {#Emph}mine!" },
-    { Cue = "/VO/Poseidon_0342", Text = "{#Emph}Hah-hah{#Prev}, no!", PlayFirst = true }
+    { Cue = "/VO/Poseidon_0342", Text = "{#Emph}Hah-hah{#Prev}, no!", PlayFirst = true },
+    { Cue = "/VO/Poseidon_0342", Text = "{#Emph}Hah-hah{#Prev}, no!" }
+
 }
 
 --classicOnly option from config
