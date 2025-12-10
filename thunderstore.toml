@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "Poplinp"                # Change to your username
 name = "Haha_No"
-versionNumber = "1.0.0"
+versionNumber = "1.0.1"
 description = "Plays Poseidon voicelines on Sea Star failure."
 websiteUrl = "https://github.com/shirimishor/HahaNo"
 containsNsfwContent = false
