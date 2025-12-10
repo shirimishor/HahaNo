@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-12-10
+ - Voicelines no longer trigger on bounty from the Buried Treasure boon without Sea Star
+
 ## [1.0.0] - 2025-12-09
 
 ### Added

@@ -34,7 +34,7 @@ local ClassicPoseidonFailVoiceLines =
 modutil.mod.Path.Wrap("UseConsumableItem", function(base, consumableItem, ...)
     local couldDuplicate = consumableItem.CanDuplicate
     local result = base(consumableItem, ...)
-    if couldDuplicate and consumableItem.CanDuplicate then
+    if HeroHasTrait( "DoubleRewardBoon" ) and couldDuplicate and consumableItem.CanDuplicate then
         if config.classicOnly then
             thread(PlayVoiceLines, ClassicPoseidonFailVoiceLines )
         else
